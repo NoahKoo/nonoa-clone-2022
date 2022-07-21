@@ -34,9 +34,7 @@ body {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
-  transition: border-color 0.3s ease-in-out;
 }
 
 #login-from input:not([type="submit"]) {
