@@ -5,13 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Nonoa Clone</title>
+    <title>Chats - Nonoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fa-solid fa-wifi"></i>
+        <span>No Service</span> <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
@@ -33,9 +32,10 @@
     </header>
 
     <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
+      <i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
+        class="fa-solid fa-chevron-right fa-xs"
+      ></i
+    ></a>
 
     <main class="friends-screen">
       <div class="user-component">
@@ -49,11 +49,11 @@
             <!-- <h6 class="user-component__subtitle">this is whatever</h6> -->
           </div>
         </div>
+        <div class="user-component__column"></div>
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
+          <span>Channel<i class="fa-solid fa-chevron-up fa-xs"></i></span>
         </div>
         <div class="user-component">
           <div class="user-component__column">
@@ -62,16 +62,11 @@
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
-              <h4
-                class="user-component__title, user-component__title--not-bold"
-              >
-                Channel
-              </h4>
+              <h4 class="user-component__title">Channel</h4>
             </div>
           </div>
           <div class="user-component__column">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-xs"></i>
+            <span>2<i class="fa-solid fa-chevron-right fa-xs"></i></span>
           </div>
         </div>
       </div>
@@ -81,25 +76,25 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
-          </a>
+            <i class="far fa-user fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
-          </a>
+            <i class="fa-solid fa-comment fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-          </a>
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <span class="nav__notification_dot"></span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
         </li>
       </ul>
     </nav>
