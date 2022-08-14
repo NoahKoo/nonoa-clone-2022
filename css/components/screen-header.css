@@ -14,3 +14,17 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+.screen-header__gear {
+  position: relative;
+}
+
+.screen__header__gear_dot {
+  position: absolute;
+  background-color: tomato;
+  border-radius: 10px;
+  width: 5px;
+  height: 5px;
+  top: -3px;
+  left: 2px;
+}
