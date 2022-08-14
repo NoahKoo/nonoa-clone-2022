@@ -41,5 +41,12 @@
 }
 
 .user-component__column:last-child {
-  color: rgb(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
 }
