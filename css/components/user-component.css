@@ -1,6 +1,8 @@
 .user-component {
+  display: flex;
   justify-content: space-between;
 }
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -37,7 +39,7 @@
 }
 
 .user-component__title--not-bold {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .user-component__column:last-child {
