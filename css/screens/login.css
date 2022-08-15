@@ -5,48 +5,60 @@
   flex-direction: column;
   align-items: center;
   font-weight: 600;
+  z-index: 2;
 }
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  z-index: 2;
 }
 .welcome-header__text {
   width: 50%;
   opacity: 0.7;
+  z-index: 2;
 }
 
 #login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
+  z-index: 2;
 }
 
 #login-form input {
   border: none;
+  background-color: rgba(223, 106, 126, 0.5);
+  border-radius: 15px;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  z-index: 2;
+  color: white;
 }
 
 #login-from input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+  z-index: 2;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: white;
+  z-index: 2;
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--gray);
+  z-index: 2;
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--gray);
   cursor: pointer;
   font-size: 16px;
   padding: 20px 0px;
-  border-radius: 5px;
+  border-radius: 15px;
+  z-index: 2;
 }
 
 #login-form a {
@@ -54,4 +66,16 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+  z-index: 2;
+}
+
+#login-background {
+  background-image: url(/nonoa-clone-2022-main/img/로그인.png);
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0.3;
+  z-index: 1;
 }

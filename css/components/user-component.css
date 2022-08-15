@@ -1,6 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -19,6 +20,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+  color: var(--gray);
 }
 
 .user-component__subtitle {
@@ -39,7 +41,8 @@
 }
 
 .user-component__title--not-bold {
-  font-weight: 400;
+  font-weight: 600;
+  color: var(--gray);
 }
 
 .user-component__column:last-child {
