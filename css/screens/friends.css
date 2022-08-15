@@ -40,7 +40,7 @@
 }
 
 #splash-screen {
-  background-image: url("../../img/login.png");
+  background-image: url("../img/login.png");
   background-size: cover;
   position: absolute;
   height: 100%;
